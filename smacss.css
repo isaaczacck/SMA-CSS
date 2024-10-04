@@ -1,0 +1,64 @@
+/* Base  */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+}
+/*------------------------------------------------------------------*/
+/* Layout  */
+.card {
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 16px; 
+    background-color: #f9f9f9;
+    max-width: 300px; 
+    margin: 16px;
+}
+
+.card--highlighted {
+    border-color: #ba1ac5; 
+    background-color: #9c19a595; 
+}
+/*-----------------------------------------------------------------------*/
+/* Module  */
+.card_images {
+    width: 300px; 
+    height: 200px; 
+}
+
+.card__description {
+    font-size: 16px;
+    color: #ffffff; 
+    margin-bottom: 12px; 
+    text-align: center; 
+}
+
+.card__button {
+    padding: 8px 16px; 
+    font-size: 14px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    margin-left: 10px; 
+}
+/*-----------------------------------------------------------------------*/
+/* Theme  */
+.bg-blue {
+    background: rgb(66, 41, 226);
+}
+
+.bg-red {
+    background: red; 
+}
+
+.bg-purple {
+    background: #ba1ac5; 
+}
+/*-----------------------------------------------------------------------*/
+/* State  */
+.card__button--primary {
+    color: white; 
+}
+
+.card__button--primary:hover {
+    background-color: #840d99; 
+}
